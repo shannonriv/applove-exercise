@@ -1,0 +1,231 @@
+/*CLASES REUTILIZABLES*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+  font-family: 'Raleway', sans-serif;  
+}
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.container:before, .container:after {
+  content: " ";
+  display: table;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container:after {
+  clear: both;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.m-0 {
+  margin: 0px;
+}
+
+a {
+  color: #373B47;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #E95853;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+/*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
+
+header {
+  outline: none;
+  height: 95px;
+}
+
+.box-header {
+  display: inline-block;
+}
+
+nav {
+  background: #ffffff;
+  height: 100px;
+  position: fixed;
+  width: 100%;
+}
+
+.logo-header {
+  width: 69px;
+  position: absolute;
+  right: 150px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+ul {
+  padding: 20px;
+}
+
+ul li {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 15px;
+  padding-right: 50px;
+  top: 50%;
+}
+
+section {
+  display: block;
+}
+
+div {
+  width: 100%;
+  margin: 0;
+}
+
+.big-box {
+  background: url(../assets/images/bg-home.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: white;
+  height: 537px;  
+  text-align: center;
+}
+
+.big-box h2 {
+  display: block;
+  font-size: 25px;
+  top: 50%;
+  padding-top: 80px;
+  margin: 0;
+
+}
+
+.big-box h1 {
+  display: block;
+  font-size: 40px;
+  padding-top: 50px;
+  margin: 0;
+}
+
+.big-box p {
+  font-size: 15px;
+  top: 50%;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 80px;
+}
+
+button {
+  background-color: rgb(46,204,113);
+  border: none;
+  padding: 15px;
+}
+
+.med-box {
+  background: rgb(241,124,114);
+  color: white;
+  text-align: center;
+  height: 550px;
+}
+
+.med-box h2 {
+  margin: 0;
+  padding-top: 50px;
+  font-size: 30px;
+}
+
+.med-box h4 {
+  margin: 0;
+  padding-top: 30px;
+}
+
+.services {
+  margin: 0;
+  display: inline-block;
+  padding: 80px 30px 30px 20px;
+  width: 30%;
+  font-size: 14px;
+}
+
+h2, h6 {
+  margin: 0;
+}
+
+.logo-services {
+  height: 155px;
+}
+
+.last-box {
+  outline: 1px solid black;
+  text-align: center;
+}
+
+.last-box h2 {
+  outline: 1px solid black;
+  margin: 0;
+  padding-top: 50px;
+}
+
+.last-box h4 {
+  outline: 1px solid black;
+  font-weight: 700;
+  margin: 0;
+  padding-top: 40px;
+}
+
+.hero {
+  outline: 1px solid black;
+  display: block;
+  margin: auto;
+  padding-top: 50px;
+  width: 70%;
+}
+
+.panel img {
+  float: left;
+  width: 30%;
+}
+
+.panel p {
+  float: left;
+}
+
+footer {
+  position: fixed;
+  bottom: 5px;
+  background-color: gray;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
