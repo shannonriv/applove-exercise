@@ -187,25 +187,25 @@ h2, h6 {
 }
 
 .last-box {
-  outline: 1px solid black;
+  outline: none;
   text-align: center;
 }
 
 .last-box h2 {
-  outline: 1px solid black;
+  outline: none;
   margin: 0;
   padding-top: 50px;
 }
 
 .last-box h4 {
-  outline: 1px solid black;
+  outline: none;
   font-weight: 700;
   margin: 0;
   padding-top: 40px;
 }
 
 .hero {
-  outline: 1px solid black;
+  outline: none;
   display: block;
   margin: auto;
   padding-top: 50px;
